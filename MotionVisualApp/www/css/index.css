@@ -1,0 +1,45 @@
+/*
+* index.css
+* put your css here
+*/
+
+* {
+	box-sizing: 		border-box;
+}
+
+html, body {      /* some mobile devices need this for vh/vw to work */
+    height        : 100%;   /* Set to full height */
+    margin        : 0;
+    overflow      : hidden; /* Prevent scrolling iOS quirk*/
+}
+
+body {
+	text-align: 		center;
+	font-family: 		sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 		monospace;
+	margin-top: 		2vh;
+	margin-bottom: 		2vh;
+}
+
+h1 		{ font-size: 	5vh; }
+h2 		{ font-size: 	4vh; }
+h3 		{ font-size: 	3vh; }
+h4 		{ font-size: 	2vh; }
+
+button {
+	font-size: 			5vh;
+	margin-bottom: 		2vh;
+}
+
+#xLabelId { color: 		red;   }
+#yLabelId { color: 		green; }
+#zLabelId { color: 		blue;  }
+
+canvas {
+	display: 			block;
+	margin: 			auto;
+	margin-bottom: 		2vh;
+}
