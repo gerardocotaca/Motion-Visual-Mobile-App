@@ -4,10 +4,6 @@
 <!-- config.xml                                                              -->
 <!-- ======================================================================= -->
 
-    <!-- =================================================================== -->
-    <!-- Change  ASURITE to your ASUrite id                                  -->
-    <!-- Change 'version' below to suit your needs                           -->
-    <!-- =================================================================== -->
 
 <widget 
     id                      = "MotionVisual"
@@ -16,9 +12,6 @@
     version                 = "31.3.0" 
     xmlns                   = "https://www.w3.org/ns/widgets">
 
-    <!-- =================================================================== -->
-    <!-- Change 'name', 'description', and 'author' tags below               -->
-    <!-- =================================================================== -->
 
     <name>Motion Visual 3G</name>
 
@@ -38,12 +31,6 @@
     <!-- =================================================================== -->
     <preference name = "Orientation"           value = "portrait"       />
 
-    <!-- =================================================================== -->
-    <!-- Plugins are libraries that extend the base functionality of the     -->
-    <!-- HTML/CSS/JS model to include device specific features of mobile     -->
-    <!-- see https://volt.build/docs/core_plugins/                           -->
-    <!-- and https://cordova.apache.org/docs/en/latest/#plugin-apis          -->
-    <!-- =================================================================== -->
 
     <!-- https://github.com/apache/cordova-plugin-device-motion -->
     <plugin name="cordova-plugin-device-motion"                         />
@@ -69,11 +56,6 @@
     <!-- =================================================================== -->
     <!-- cordova-plugin-cleartext - enables unencrypted text to be passed to -->
     <!-- servers, it is not secure, but ok for developmental testing         -->
-    <!-- NOTE BY DEFAULT FOR DEVELOPEMENT ONLY, WE ALL ANY ACCESS TO ANY SITE-->
-    <!-- with access origin="*"                                              -->
-    <!-- this is NOT a best practice for development where you lock down     -->
-    <!-- permitted domains - for more details and examples, see              -->
-    <!-- http://cordova.apache.org/docs/en/latest/guide/appdev/whitelist/    -->
     <!-- =================================================================== -->
     <plugin     name="cordova-plugin-cleartext"                         />
     <access     origin="*"                                              />
